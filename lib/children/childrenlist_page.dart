@@ -182,6 +182,7 @@ class _ChildrenList extends State<ChildrenList> {
     );
   }
 
+  // ダイアログ設定
   Future showConfirmDialog(
     BuildContext context,
     Child child,

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:todo_app/children/child.dart';
 
-// アカウントごとの子供情報を一括管理
+/* チルドレン情報管理用 */
 class ChildrenProviderModel extends ChangeNotifier {
   // 各情報を格納する変数
   List<Child>? children; //チルドレンリスト取得用変数
